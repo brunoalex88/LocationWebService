@@ -15,7 +15,7 @@ public class Location {
 	private String deviceId;
 	private double latitude;
 	private double longitude;
-	private Date   time;
+	private String time;
 	
 	public String getDeviceId() {
 		return deviceId;
@@ -41,11 +41,11 @@ public class Location {
 		this.longitude = longitude;
 	}
 	
-	public Date getTime() {
+	public String getTime() {
 		return time;
 	}
 	
-	public void setTime(Date time) {
+	public void setTime(String time) {
 		this.time = time;
 	}
 
