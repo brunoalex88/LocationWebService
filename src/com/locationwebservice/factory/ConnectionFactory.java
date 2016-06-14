@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 
 public class ConnectionFactory {
 	private static final String DRIVER   = "oracle.jdbc.OracleDriver";
-	private static final String URL      = "jdbc:oracle:thin:@127.0.0.1:1521:XE";
+	private static final String URL      = "jdbc:oracle:thin:@se.clapgtmm0jhz.sa-east-1.rds.amazonaws.com:1521:ORCL";
 	private static final String USER     = "followstep";
 	private static final String PASSWORD = "aabb123456";
 
